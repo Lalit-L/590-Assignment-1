@@ -1,5 +1,7 @@
 Lalit Lakamsani
 
+**AI DISCLAIMER AT THE BOTTOM**
+
 This is my submission for Assignment 1 for CYBERSEC 590
 
 My application is called Bug Fixer. It takes in code, and uses the model to find the errors (if any) in the code and outputs the fix for them, and what was wrong with the code to begin with
@@ -21,3 +23,12 @@ Run: sudo docker run -it --rm --env-file .env bug-fixer
   - Type/paste any code you would like
   - Once done, press enter and type END on the newline, by itself
   - Press enter again, and wait for the model to run
+
+
+**AI USAGE**
+  - ChatGPT (free version) was used to create an outline of the Dockerfile on September 12, 2026
+    - I rewrote the Dockerfile/any errors in it by hand, choosing the files that needed to be copied into the docker by looking at error messages
+  - ChatGPT (free version) was used to outline the .dockerignore file as well, on September 13, 2026
+    - I modified the .dockerignore to follow much of the .gitignore, which was created from the machine
+  - The code was handwritten. I had most of the knowledge from the previous 520 Class
+  - **No code was directly copied from the 520 class projects**
