@@ -30,5 +30,7 @@ Run: sudo docker run -it --rm --env-file .env bug-fixer
     - I rewrote the Dockerfile/any errors in it by hand, choosing the files that needed to be copied into the docker by looking at error messages
   - ChatGPT (free version) was used to outline the .dockerignore file as well, on September 13, 2026
     - I modified the .dockerignore to follow much of the .gitignore, which was created from the machine
+  - The idea to use a .env file was also from ChatGPT (free version) on September 5th, 2026
+    - I modified the file, making sure it was properly usable. I also created the .env.example file to help users put their own info in 
   - The code was handwritten. I had most of the knowledge from the previous 520 Class
   - **No code was directly copied from the 520 class projects**
