@@ -18,6 +18,6 @@ Run: sudo docker run -it --rm --env-file .env bug-fixer
   - This runs the docker
 
 **When Running:**
-Type/paste any code you would like
-Once done, press enter and type END on the newline, by itself
-Press enter again, and wait for the model to run
+  - Type/paste any code you would like
+  - Once done, press enter and type END on the newline, by itself
+  - Press enter again, and wait for the model to run
